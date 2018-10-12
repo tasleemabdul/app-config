@@ -1,7 +1,9 @@
-security:
-  basic:
-    enabled: false # turn off securing our application endpoints
+logging: 
+  level:
+    io:
+      pivotal: DEBUG
 
-management:
-  security:
-    enabled: false # turn off securing the actuator endpoints
+greeting:
+  displayFortune: false
+
+quoteServiceURL: http://quote-service-dev.cfapps.io/quote
